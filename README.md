@@ -5,7 +5,7 @@
 Projeto simples para treinar o Javascript e Jquery.
 Criado com diretrizes do curso de Web Front End da [Udacity](udacity.com)
 
-Para visualizar a página, [click aqui!](https://dkotsuka.github.io/cat-clicker/)
+Para visualizar a página, [click aqui!](https://dkotsuka.github.io/cat-clicker/index.html)
 
 ## Habilidades
 
