@@ -13,3 +13,6 @@ Este projeto foi útil para:
 * treinar a sintaxe do Jquery;
 * treinar scripts dinâmicos de preenchimento de listas com o Javascript;
 * treinar CSS responsivo.
+
+Refatoramento 1:
+* Projeto reconstruído para modularizar o código, separando dados das views e do código manipulador.
