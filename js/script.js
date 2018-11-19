@@ -88,6 +88,7 @@ $(function() {
 			imageLabel.append(inputImage);
 			const inputClicks = document.createElement('input');
 			inputClicks.setAttribute('value', cat.clicks);
+			inputClicks.setAttribute('type', 'number');
 			const clicksLabel = document.createElement('label');
 			clicksLabel.innerHTML = 'Clicks:';
 			clicksLabel.append(inputClicks);
@@ -105,7 +106,7 @@ $(function() {
 			$('#cat-selected-container').append(container);
 
 			saveButton.addEventListener('click', function(e) {
-				const newCat = {name: inputName.value, clicks: inputClicks.value, image: inputImage.value};
+				const newCat = {name: inputName.value, clicks: parseInt(inputClicks.value), image: inputImage.value};
 				editView.saveChanges(index, newCat);
 				e.preventDefault();
 			});
